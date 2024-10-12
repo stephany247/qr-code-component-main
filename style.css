@@ -1,0 +1,76 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--slate-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: "Outfit", serif;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card {
+  background-color: var(--white);
+  padding: 16px 16px 40px;
+  margin: 150px 0;
+  border-radius: 20px; 
+  max-width: 320px;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 24px;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.0477); 
+}
+
+.card .image {
+    margin-bottom: 24px;
+}
+
+.card img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.card .text{
+    margin: 0 16px;
+    width: 256px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card h1 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: var(--slate-900);
+    margin: 0 0 16px;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: var(--slate-500);
+    margin: 0;
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 40%, 27%);
+}
